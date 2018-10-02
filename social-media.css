@@ -1,0 +1,78 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+h4{
+	padding: 0.75rem 0 0.75rem 0; 
+	margin: 0; 
+}
+
+p {
+	margin: 0 0 0.5rem 0; 
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+}
+
+.post {
+	display: flex;
+	justify-content: center;
+	border: 1px solid rgb(141, 141, 141);
+	margin: 1rem;
+	padding: 1.5rem; 
+	border-radius: 10px; 
+}
+
+.author {
+	display: flex; 
+	flex-basis: 200px;
+	width: 9em;
+	flex-direction: column; 
+}
+
+.bio {
+	font-size: 0.90rem; 
+}
+
+.profile-link {
+	color: #2980b9;
+	font-size: 0.90rem;
+	padding-top: 0.5rem; 
+}
+
+.content {
+	display: flex; 
+	flex-basis: 500px;
+	width: 30em;
+	flex-direction: column; 
+}
+
+.title{
+	padding: 0 0 1rem 0; 
+	margin: 0; 
+}
+
+.thumb {
+	color: #2980b9; 
+	float: right; 
+}
+
+.text{
+	padding-bottom: 1rem; 
+}
+
+.user-img {
+	width: 5em; 
+}
+
+.metadata {
+	align-self: end;
+	font-size: 0.80rem;
+	font-style: italic;  
+}
+
+#title {
+	text-align: center; 
+}
